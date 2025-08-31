@@ -1,0 +1,38 @@
+
+### 2) `site/index.html`
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Simran • AWS Website CI/CD</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header>
+    <h1>🚀 AWS Website CI/CD (S3 + CloudFront)</h1>
+    <p>Deployed via GitHub Actions • IaC with Terraform</p>
+  </header>
+  <main>
+    <section class="card">
+      <h2>Welcome</h2>
+      <p>This is a minimal static site scaffold to show end-to-end DevOps on AWS.</p>
+      <ul>
+        <li>S3 (private) + CloudFront (OAC)</li>
+        <li>GitHub Actions: sync + invalidation</li>
+        <li>SPA-friendly 404 → index.html</li>
+      </ul>
+    </section>
+    <section class="grid">
+      <div class="tile"><h3>Speed</h3><p>Global CDN via CloudFront.</p></div>
+      <div class="tile"><h3>Security</h3><p>Bucket is private; only CloudFront can read.</p></div>
+      <div class="tile"><h3>IaC</h3><p>Recreate infra with Terraform.</p></div>
+    </section>
+  </main>
+  <footer>
+    <p>© <span id="year"></span> Simran Singh — DevOps on AWS</p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

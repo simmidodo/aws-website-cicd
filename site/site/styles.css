@@ -1,0 +1,11 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Helvetica Neue, Arial, Noto Sans; background: #0b1220; color: #e6eefc; }
+header { padding: 3rem 1rem; text-align: center; background: linear-gradient(135deg, #1b2a4a, #0f1b33); border-bottom: 1px solid #1e2a44; }
+h1 { margin: 0; font-size: 2rem; }
+main { max-width: 980px; margin: 2rem auto; padding: 0 1rem; }
+.card { background: #121b2e; border: 1px solid #1d2a48; border-radius: 14px; padding: 1.25rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap: 1rem; margin-top: 1rem; }
+.tile { background: #121b2e; border: 1px solid #1d2a48; border-radius: 14px; padding: 1rem; }
+footer { text-align: center; padding: 2rem 1rem; color: #b2c4e6; }
+a { color: #8bb4ff; }
+.center { display: grid; place-items: center; min-height: 60vh; }

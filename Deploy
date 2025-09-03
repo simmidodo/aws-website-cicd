@@ -11,7 +11,7 @@
 </head>
 <body>
   <header>
-    <h1>🚀 AWS Website CI/CD (S3 + CloudFront)</h1>
+    <h1> AWS Website CI/CD (S3 + CloudFront)</h1>
     <p>Deployed via GitHub Actions • IaC with Terraform</p>
   </header>
   <main>
